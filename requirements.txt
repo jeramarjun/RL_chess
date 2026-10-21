@@ -1,0 +1,5 @@
+# Requirements for RL-Enhanced Chess Engine
+chess>=1.10.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+reportlab>=3.6.0
