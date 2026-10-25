@@ -1,0 +1,32 @@
+{
+  "algorithm": "TD(lambda)_residual_evaluator",
+  "feature_names": [
+    "material",
+    "piece_square_tables",
+    "minor_activity",
+    "rook_activity",
+    "pawn_structure",
+    "mobility",
+    "king_safety",
+    "bias"
+  ],
+  "feature_dim": 8,
+  "alpha": 0.02,
+  "gamma": 0.99,
+  "lambda_param": 0.7,
+  "value_scale": 800.0,
+  "correction_scale": 300.0,
+  "weights": {
+    "material": 1.2185908817105386e-06,
+    "piece_square_tables": 0.02668237220234666,
+    "minor_activity": -0.03304109882119009,
+    "rook_activity": -0.05521016008075846,
+    "pawn_structure": -0.04440586762018071,
+    "mobility": 0.13525949951557967,
+    "king_safety": -0.6107432236929532,
+    "bias": 0.058934301544535286
+  },
+  "games_trained": 150,
+  "total_updates": 10418,
+  "last_mean_td_error": 0.10411790205760109
+}
