@@ -1,0 +1,50 @@
+{
+  "Random Baseline": {
+    "games": 8,
+    "wins": 8,
+    "draws": 0,
+    "losses": 0,
+    "win_rate": 100.0,
+    "draw_rate": 0.0,
+    "loss_rate": 0.0,
+    "score_pct": 100.0,
+    "elo_diff": 798.3,
+    "avg_plies": 27.5
+  },
+  "Greedy Material": {
+    "games": 8,
+    "wins": 5,
+    "draws": 3,
+    "losses": 0,
+    "win_rate": 62.5,
+    "draw_rate": 37.5,
+    "loss_rate": 0.0,
+    "score_pct": 81.2,
+    "elo_diff": 254.2,
+    "avg_plies": 23.0
+  },
+  "Untrained Baseline (w=0)": {
+    "games": 8,
+    "wins": 4,
+    "draws": 4,
+    "losses": 0,
+    "win_rate": 50.0,
+    "draw_rate": 50.0,
+    "loss_rate": 0.0,
+    "score_pct": 75.0,
+    "elo_diff": 190.8,
+    "avg_plies": 76.6
+  },
+  "Heuristic AIPlayer": {
+    "games": 8,
+    "wins": 2,
+    "draws": 5,
+    "losses": 1,
+    "win_rate": 25.0,
+    "draw_rate": 62.5,
+    "loss_rate": 12.5,
+    "score_pct": 56.2,
+    "elo_diff": 43.3,
+    "avg_plies": 70.8
+  }
+}
